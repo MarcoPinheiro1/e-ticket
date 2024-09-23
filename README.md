@@ -1,5 +1,6 @@
 # 🎟️ Simulador E-TICKET
 
+![Logo do projeto](assets/mockup_projeto.png)
 
 ## Descrição
 
