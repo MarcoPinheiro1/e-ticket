@@ -2,7 +2,7 @@ function comprar() {
     let setorIngresso = document.getElementById('tipo-ingresso').value;
     let quantidade = document.getElementById('qtd').value;
     
-    if (isNaN(qtd) || qtd <= 0) {
+    if (isNaN(quantidade) || qtd <= 0) {
         alert('Quantidade inválida! Insira Novamente.');
         return;
     }
@@ -18,7 +18,7 @@ function comprar() {
 
 function comprarPista(quantidade) {
     let qtdPista = parseInt(document.getElementById('qtd-pista').textContent);
-    if (qtdPista < qtd) {
+    if (qtdPista < quantidade) {
         alert('Quantidade indisponível para o setor Pista!');
     } else {
         qtdPista = qtdPista - quantidade;
